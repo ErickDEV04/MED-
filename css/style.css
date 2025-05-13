@@ -1,1 +1,35 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f8fbf6;
+    color: #2e2e2e;
+}
 
+.navbar {
+    background-color: #ea3af;
+    color: #f8fbf6;
+}
+
+.navbar-brand, .nav-link {
+    color: #f8fbf6 !important;
+    font-weight: 500;
+}
+
+.card {
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn {
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin: 10px;
+    }
+}
